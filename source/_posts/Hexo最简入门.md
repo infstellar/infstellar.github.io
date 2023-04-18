@@ -9,6 +9,7 @@ tags:
 ---
 
 # Hexo快速入门
+[Hexo官方文档](https://hexo.io/zh-cn/docs)
 
 ## 安装基本环境
 - Node.js
@@ -25,11 +26,23 @@ npm install --save hexo-renderer-less hexo-renderer-ejs --registry=http://regist
 ```
 
 ## 主题
-- async
+- async  
+https://async-docs.imalun.com
 ```powershell
 npm i hexo-theme-async@latest
 ```
 
-## 部署到github pages
-
-git
+## 初始化Hexo并部署到Github pages
+- 创建一个github仓库，命名为username.github.io
+- 初始化仓库
+- 进入git上级目录，运行
+```powershell 
+npx hexo init username.github.io
+```
+- 运行
+```powershell 
+cd username.github.io
+npm install
+```
+- 更详细信息，参见https://hexo.io/zh-cn/docs/setup
+- github部署信息，参见https://hexo.io/zh-cn/docs/github-pages
