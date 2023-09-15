@@ -36,8 +36,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0
   hexo-theme-async:
-    specifier: ^2.0.8
-    version: 2.0.9
+    specifier: ^2.1.0
+    version: 2.1.0
   hexo-theme-landscape:
     specifier: ^0.0.3
     version: 0.0.3
@@ -347,6 +347,7 @@ packages:
 
   /debug@3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
+    requiresBuild: true
     peerDependencies:
       supports-color: '*'
     peerDependenciesMeta:
@@ -792,8 +793,8 @@ packages:
       - supports-color
     dev: false
 
-  /hexo-theme-async@2.0.9:
-    resolution: {integrity: sha512-ibrv4CPYBCZ7U4jAipXTuNSqOWVGiwttkhPSfRiOwVAdpf32tP1UGjmKRQtfp/qD4+IU5eweqaiR+k1PgWA3qA==}
+  /hexo-theme-async@2.1.0:
+    resolution: {integrity: sha512-+o83g3F1FaWKlmudXppMiEd/5r0ZRSTFRLKWi87mx2m5Mz2H62Y9terbj8zznDYzv3oLeAKrD0EtvGxinFeBmQ==}
     dev: false
 
   /hexo-theme-landscape@0.0.3:
@@ -1385,6 +1386,7 @@ packages:
   /pify@4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -1405,6 +1407,7 @@ packages:
 
   /prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -1485,6 +1488,7 @@ packages:
   /semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
+    requiresBuild: true
     dev: false
     optional: true
 
